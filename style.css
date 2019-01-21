@@ -1,0 +1,87 @@
+*{
+ margin:0;
+ padding:0;
+}
+body{
+	background-image: url(http://i64.tinypic.com/xf4wg6.jpg);
+  color:aliceblue;
+
+  
+  }
+
+.hide{
+   display: none;
+}
+.show{
+   display: block;
+}
+
+.frase1 {
+	font-weight: bold;
+	font-family: cursive;
+  font-size:40px;
+  text-align:center;
+  text-shadow: 3px 3px black;
+  }
+
+.frase2 {
+	font-weight: bold;
+	font-family: cursive;
+  font-size:30px;
+  text-align:center;
+  text-shadow: 2px 2px black;
+}
+
+input{
+  border-color: aliceblue;
+  border-radius:20px;
+  font-family:cursive;
+  font-size:50px;
+}
+
+button{
+  border-color: aliceblue;
+  border-radius:20px;
+  font-family:cursive;
+  font-size:50px;
+}
+
+.herois{
+  position:absolute;
+  top:50%;
+  bottom:50%;
+  right:50%;
+  left:10%;
+}
+
+.viloes{
+  position:absolute;
+  top:50%;
+  bottom:50%;
+  right:20%;
+  left:80%;
+}
+
+.novo{
+  position:absolute;
+  top:80%;
+  bottom:50%;
+  right:40%;
+  left:40%;
+  font-size:5px;
+  
+}
+
+.respostas{
+  font-weight: bold;
+	font-family: cursive;
+  font-size:40px;
+  text-align:center;
+  color:rgb(231, 235, 216);
+  position:absolute;
+  top:45%;
+  bottom:75%;
+  right:30%;
+  left:30%;
+  text-shadow: 3px 3px black;
+}
